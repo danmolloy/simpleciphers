@@ -1,0 +1,21 @@
+form {
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.textContainer {
+  display: inline-block;
+  margin: auto;
+  margin-top: 10px;
+  padding: 1em;
+  
+}
+
+textarea {
+  display: block;
+  margin: 0.5em;
+  width: 400px;
+  height: 400px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+  <body>
+    <form action="" method="">
+      <div id="controls">
+        <select name="cipherSelect" id="cipherSelect">
+          <option value="caesar" selected>Caesar Cipher</option>
+        </select>
+        
+        <input type="text" id="cipherOption" value="13">
+        <label for="cipherOption">Key (0-26)</label>
+      </div>
+      
+      <div id="plainTextContainer" class="textContainer">
+        <label for="plainText">Normal Text</label>
+        <textarea id="plainText">Enter text to cipher...</textarea>
+        
+        <div id="cipherButtonContainer" class="buttonContainer">
+          <button type="button" id="cipherButton">Cipher!</button>
+        </div>
+        
+      </div>
+      
+      <div id="cipheredTextContainer" class="textContainer">
+        <label for="cipheredText">Ciphered Text</label>
+        <textarea id="cipheredText">Enter text to decipher...</textarea>
+       
+        <div id="decipherButtonContainer" class="buttonContainer">
+          <button type="button" id="decipherButton">Decipher!</button>
+        </div>
+        
+      </div>
+    
+    </form>
+    
+    
+  </body>
+
+</html>
