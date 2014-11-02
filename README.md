@@ -11,3 +11,5 @@ Todo:
         
         -Additional ciphers to implement: Atbash, mixed alphabet, 
          Vigenère...
+         
+        -Add styling
